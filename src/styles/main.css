@@ -1,0 +1,17 @@
+/* TEMP: TESTING INITIAL CONFIGS */
+@import url('./base/reset');
+@import url('./base/typography');
+@import url('./base/colors');
+
+body {
+  background-color: var(--bg-test);
+  backdrop-filter: 5px;
+
+  p {
+    font-size: 1rem;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
