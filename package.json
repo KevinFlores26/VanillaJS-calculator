@@ -38,6 +38,8 @@
     "vite-plugin-babel": "^1.2.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.7"
+    "@babel/runtime": "^7.24.7",
+    "@fontsource-variable/cabin": "^5.0.19",
+    "@fontsource-variable/dosis": "^5.0.20"
   }
 }

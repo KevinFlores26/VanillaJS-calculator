@@ -1,4 +1,24 @@
-/* TEMP: TESTING INITIAL CONFIGS */
+/*
+* Color Themes - Dark by default
+* Preferred color models: HEX (for static colors), RGB and RGBA (for transparencies)
+*/
+
 :root {
-  --bg-test: #101116;
+  /* HEX colors */
+  --color-primary-bg: #181919;
+  --color-primary-text: #e2ecf0;
+  --color-primary-accent: #f0db4f;
+  --color-secundary-accent: #3b557b;
+  --color-primary-layer: #0a0a0b;
+  --color-secondary-layer: #323336;
+}
+
+[data-theme='light'] {
+  /* HEX colors */
+  --color-primary-bg: #f2f2f2;
+  --color-primary-text: #363636;
+  --color-primary-accent: #cca43b;
+  --color-secundary-accent: #242f60;
+  --color-primary-layer: #fff;
+  --color-secondary-layer: #ebebeb;
 }

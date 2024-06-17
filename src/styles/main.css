@@ -1,17 +1,19 @@
-/* TEMP: TESTING INITIAL CONFIGS */
 @import url('./base/reset');
 @import url('./base/typography');
 @import url('./base/colors');
 
+/* 
+* Preferred Units: rem, % or px (px in specific cases)
+* rem = 16px (if user has not changed the default font-size in its browser settings)
+*/
+
+::selection {
+  background-color: var(--color-primary-accent);
+  color: var(--color-primary-bg);
+}
+
 body {
-  background-color: var(--bg-test);
-  backdrop-filter: 5px;
-
-  p {
-    font-size: 1rem;
-
-    &:hover {
-      color: red;
-    }
-  }
+  min-height: 100vh;
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-text);
 }

@@ -9,23 +9,7 @@
 // ** This is my first time using core-js and regenerator-runtime so I am learning yet
 // ** **
 
-import test, { greeting, objectTest } from './components/test.mjs';
+import '@fontsource-variable/cabin/wght.css'; // Primary font
+import '@fontsource-variable/dosis';  // Secondary font
 
-// TEMP: Testing the confuration of babel and core-js in build process -> success
-const testFunction = () => {
-  var array = Array.of(1, 2, 3);
-  console.log(array);
-  var set = new Set([1, 2, 3]);
-  console.log(set);
-  console.log(Array.from('test'));
-};
-
-testFunction();
-
-const testingImports = () => {
-  console.log(test);
-  greeting('Hello JS!');
-  console.log(objectTest.test);
-};
-
-testingImports();
+console.log('Hello JS!');
