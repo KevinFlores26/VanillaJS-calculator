@@ -12,8 +12,13 @@
   color: var(--color-primary-bg);
 }
 
+html:not([data-theme='light']) img[src$='.svg'] {
+  filter: invert(100%);
+}
+
 body {
   min-height: 100vh;
   background-color: var(--color-primary-bg);
   color: var(--color-primary-text);
 }
+

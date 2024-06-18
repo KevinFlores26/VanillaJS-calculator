@@ -9,7 +9,4 @@
 // ** This is my first time using core-js and regenerator-runtime so I am learning yet
 // ** **
 
-import '@fontsource-variable/cabin/wght.css'; // Primary font
-import '@fontsource-variable/dosis';  // Secondary font
-
 console.log('Hello JS!');

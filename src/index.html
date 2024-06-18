@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,51 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <p>TESTING INITIAL CONFIGS</p>
+    <main class="main-container">
+      <div class="main-container__title title">
+        <h1 data-lang="title">
+          Simple Web Calculator
+          <br />
+          <span data-lang="emphasis-title">VanillaJS</span>
+        </h1>
+      </div>
+
+      <div class="main-container__calc calc">
+        <label class="calc__calc-screen calc-screen" for="screen-text">
+          <img src="/fi-br-time-past.svg" alt="history" id="history" />
+          <input type="text" id="screen-text" />
+        </label>
+
+        <div class="calc__calc-body calc-body">
+          <ul class="calc-body__upper-buttons">
+            <li class="calc-body__buttons">&rpar;</li>
+            <li class="calc-body__buttons">&lpar;</li>
+            <li class="calc-body__buttons"><img src="/fi-br-delete.svg" alt="backspace" /></li>
+          </ul>
+          <ul class="calc-body__operations">
+            <li class="calc-body__buttons">&times;</li>
+            <li class="calc-body__buttons">&divide;</li>
+            <li class="calc-body__buttons">&minus;</li>
+            <li class="calc-body__buttons">&plus;</li>
+          </ul>
+          <ul class="calc-body__numbers">
+            <li class="calc-body__buttons">1</li>
+            <li class="calc-body__buttons">2</li>
+            <li class="calc-body__buttons">3</li>
+            <li class="calc-body__buttons">4</li>
+            <li class="calc-body__buttons">5</li>
+            <li class="calc-body__buttons">6</li>
+            <li class="calc-body__buttons">7</li>
+            <li class="calc-body__buttons">8</li>
+            <li class="calc-body__buttons">9</li>
+            <li class="calc-body__buttons">&pi;</li>
+            <li class="calc-body__buttons">0</li>
+            <li class="calc-body__buttons">.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
     <script type="module" src="./scripts/main.mjs"></script>
   </body>
 </html>
